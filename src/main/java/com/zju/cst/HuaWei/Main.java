@@ -1,4 +1,5 @@
-package HuaWei;
+package com.zju.cst.HuaWei;
+
 
 import java.util.Scanner;
 
