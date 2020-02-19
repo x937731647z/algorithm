@@ -39,30 +39,6 @@ public class BFSblock {
 
     }
 
-    //    public void BFSearch(int x, int y,int[][] martix ){
-//        Queue<BFSblockNode> queue = new LinkedList<>();
-//        BFSblockNode node = new BFSblockNode();
-//        node.x = x;
-//        node.y = y;
-//        queue.offer(node);
-//        inque[x][y] = true;
-//        while (!queue.isEmpty()){
-//            BFSblockNode top = queue.poll();
-//            //此处
-//            int topx = top.x;
-//            int topy = top.y;
-//            for (int i =0 ; i < 4;i ++ ){
-//                int NewX = topx + Xarray[i];
-//                int NewY = topy + Yarray[i];
-//                if (judge(NewX, NewY, martix)){
-//                    node.x = NewX;
-//                    node.y = NewY;
-//                    queue.offer(node);
-//                    inque[NewX][NewY] = true;
-//                }
-//            }
-//        }
-//    }
     public void BFSearch(int x, int y, int[][] martix) {
         Queue<BFSblockNode> queue = new LinkedBlockingQueue<>();
         BFSblockNode node = new BFSblockNode();
@@ -72,11 +48,11 @@ public class BFSblock {
         inque[x][y] = true;
         while (!queue.isEmpty()) {
             BFSblockNode top = queue.poll();
-//            int topx = top.x;
-//            int topy = top.y;
+            int topx = top.x;
+            int topy = top.y;
             for (int i = 0; i < Xarray.length; i++) {
-                int NewX = top.x + Xarray[i];
-                int NewY = top.y + Yarray[i];
+                int NewX = topx + Xarray[i];
+                int NewY = topy + Yarray[i];
                 if (judge(NewX, NewY, martix)) {
                     node.x = NewX;
                     node.y = NewY;

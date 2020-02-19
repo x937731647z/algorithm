@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/img/test.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/img/test_server.txt" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/algorithm/ClassSingleton.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/algorithm_note/test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/btree/BinaryTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/btree/LinkedBinaryTree.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/btree/Node.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/btree/Test.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/jdbc/InnerClassA.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/list/ArrayList.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/socket/TcpServer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/Account.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/Consumer.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/Goods.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/GoodsTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/Product.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/zju/cst/thread/Web12306.java" charset="GBK" />
+    <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

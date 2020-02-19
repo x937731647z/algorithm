@@ -111,8 +111,7 @@ public class LinkedBinaryTree implements BinaryTree {
     this.postOrderTeavere(root);
   }
 
-  @Override
-  public void postOrderTeavere(Node root) {
+  private void postOrderTeavere(Node root) {
     if (root != null) {
       // 先对左子树进行遍历
       postOrderTeavere(root.leftChild);

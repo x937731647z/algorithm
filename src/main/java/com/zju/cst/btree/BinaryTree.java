@@ -38,8 +38,9 @@ public interface BinaryTree {
 	/**
 	 * 后序递归遍历操作
 	 * @param node  树根结点
+	 * @param node  树根结点
 	 */
-	public void postOrderTeavere(Node node);
+//	public void postOrderTeavere(Node node);
 	
 	/**
 	 * 中序遍历非递归操作

@@ -1,5 +1,7 @@
 package com.zju.cst.algorithm_note;
 
+import java.util.Arrays;
+
 /**
  * @author wulixz
  * @date 9/8/19 : 8:37 PM
@@ -7,6 +9,8 @@ package com.zju.cst.algorithm_note;
  */
 public class LISeq {
     public int lonIncreaseSeq(int[] Arr){
+        // 1, 2, 3,-9, 3, 9, 0, 11
+
         int result = 1;
         int[] dp = new int[Arr.length];
         dp[0] = 1;
@@ -18,6 +22,7 @@ public class LISeq {
             }
             result = Math.max(result, dp[i]);
         }
+        System.out.println(Arrays.toString(dp));
         return result;
     }
 }

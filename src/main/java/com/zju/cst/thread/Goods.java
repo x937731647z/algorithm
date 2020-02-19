@@ -12,8 +12,9 @@ public class Goods {
             }
         }
         else {
-           apple ++;
-            System.out.println("生产者:"+Thread.currentThread().getName()+"生产了第：" + apple + "个商品");
+            apple ++;
+//            System.out.println("生产者:"+Thread.currentThread().getName()+"生产了第：" + apple + "个商品");
+            System.out.println(Thread.currentThread().getName()+"       生产了第：" + apple + "个商品");
             notifyAll();
         }
 
@@ -27,7 +28,8 @@ public class Goods {
             }
         }
         else {
-            System.out.println("消费者:"+Thread.currentThread().getName()+"消费了第：" + apple + "个商品");
+//            System.out.println("消费者:"+Thread.currentThread().getName()+"消费了第：" + apple + "个商品");
+            System.out.println(Thread.currentThread().getName()+"       消费了第：" + apple + "个商品");
             apple --;
             notifyAll();
         }
