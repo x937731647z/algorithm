@@ -27,6 +27,7 @@ public class Q36ValidSudoku {
                 }
             }
         }
+
         return result;
     }
 }

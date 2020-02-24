@@ -2,6 +2,8 @@ package com.zju.cst;
 
 import com.zju.cst.sort.Test;
 
+import java.util.*;
+
 /**
  * @author wulixz
  * @date 1/30/20 : 6:36 PM
@@ -9,27 +11,21 @@ import com.zju.cst.sort.Test;
  */
 public class TestAll {
     public static void main(String[] args) {
-    }
-    void make(){
-//        TestA test = new TestA();
-        TestA test;
-        test = new TestA();
-        System.out.println("ok");
-    }
+//        String str = "aaacbbdddd";
+//        System.out.println(1 << 30);
 
-}
+        String str = "abrctduefghij";
+//        String str = "=ftrabce";
+//        String str = "qrrstuabcrrsdefghijklmnopvwxyz";
+        Map<Character,Integer> map = new HashMap<>();
 
-class TestA{
-    TestB b;
-    TestA(){
-        b = new TestB(this);
-    }
 
-}
-
-class TestB{
-    TestA a;
-    TestB(TestA a){
-        this.a = a ;
+        for (char c : str.toCharArray()){
+            map.put(c,map.getOrDefault(c,0) + 1);
+        }
+        for (Map.Entry<Character,Integer> m : map.entrySet()
+             ) {
+            System.out.println(m.getKey() + "  -  " + m.getValue());
+        }
     }
 }
